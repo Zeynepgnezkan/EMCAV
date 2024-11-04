@@ -16,3 +16,24 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 URL: https://github.com/zeynepgnezkan/EMCAV
 BugReports: https://github.com/zeynepgnezkan/EMCAV/issues
+Collate: 
+    'assign_word_info.R'
+    'blink_overlap_or_near.R'
+    'calculate_fixation_time_measures.R'
+    'calculate_subject_EK_measures.R'
+    'calculate_subject_eyelink_measures.R'
+    'categorize_fixation.R'
+    'determine_downsampling_factor.R'
+    'fix_in_dc.R'
+    'get_files.R'
+    'get_trial_info_from_msg.R'
+    'get_word_info_from_msg.R'
+    'halfViolinPlots.R'
+    'mark_fixations_close_to_blinks.R'
+    'merge_fixations.R'
+    'merge_fixations_loop.R'
+    'plot_trial.R'
+    'process_EK_trial.R'
+    'process_eyelink_trial.R'
+    'read_asc_file.R'
+VignetteBuilder: knitr
