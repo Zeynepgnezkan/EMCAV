@@ -4,7 +4,7 @@
 #'
 #' @param original_sampling_rate The original sampling rate of the data in Hz.
 #' @param reduce_sampling_rate_to The target reduced sampling rate in Hz.
-#' @param reduce_sampling_rate_to The downsampling method used, \code{drop} or \code{average}. This only affects the message displayed
+#' @param downsampling_method The downsampling method used, \code{drop} or \code{average}. This only affects the message displayed
 #'
 #' @return The calculated downsampling factor.
 #'

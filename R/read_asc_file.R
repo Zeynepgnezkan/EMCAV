@@ -5,6 +5,7 @@
 #' @param data_file The path to the ASC data file to be read.
 #' @param rate The sampling rate of the data.
 #' @param sentence_start_x The x-coordinate of the sentence start. Default is 125.
+#' @param language The language of the experiment. Default is "ENG".
 #'
 #' @return A list containing various data frames and lists including trial information, messages, samples, words, fixations, saccades, and blinks.
 #'

@@ -26,7 +26,7 @@
 #' eyelink_blinks <- read_csv("eyelink_blinks.csv")
 #' trial_words <- read_csv("trial_words.csv")
 #' trial_db_for_trial <- read_csv("trial_db_for_trial.csv")
-#' processed data <- process_eyelink_trial(eyelink_fixations, eyelink_blinks, trial_words, trial_db_for_trial)
+#' processed_data <- process_eyelink_trial(eyelink_fixations, eyelink_blinks, trial_words, trial_db_for_trial)
 #'
 #' @export
 

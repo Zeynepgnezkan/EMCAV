@@ -5,9 +5,9 @@
 #' This geometry allows for a flat violin representation, which is particularly useful for
 #' visualizing the density of the data while maintaining a clear view of the underlying data points.
 #'
-#' @param data A data frame containing the variables to be plotted.
-#' @param params A list of additional parameters for the geometry.
+#'
 #' @return A ggproto object that defines the flat violin geometry.
+#'
 #' @export
 GeomFlatViolin <- ggproto("GeomFlatViolin", Geom,
                           setup_data = function(data, params) {

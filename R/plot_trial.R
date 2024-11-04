@@ -4,9 +4,11 @@
 #'
 #' @param subject The subject data object containing eye tracking and trial information.
 #' @param trial_nr The trial number to visualize.
+#' @param use_eye The eye to use for visualization (either "L" or "R").
 #' @param show_original_samples Display the original eye tracking samples.
 #' @param show_downsampled_samples Display the downsampled eye tracking samples.
 #' @param downsampling_rate The rate at which to downsample the samples (in Hz).
+#' @param downsampling_method The method to use for downsampling ("drop" or "average").
 #' @param show_eyelink_fixations Display Eyelink fixations.
 #' @param show_EK_fixations Display fixations determined by the Engbert and Kliegl algorithm from the original samples.
 #' @param show_EK_fixations_downsampled Display fixations determined by the Engbert and Kliegl algorithm from the downsampled samples.
@@ -22,6 +24,8 @@
 #' @param max_duration_for_elimination_or_merge Maximum duration for elimination or merge criteria.
 #' @param max_distance_for_merge Maximum distance for merge criteria.
 #' @param letter_width The width of a single letter.
+#' @param words_font_size The font size for word labels.
+#' @param df_with_fixed_words A data frame containing fixed word information.
 #'
 #' @details This function visualizes eye tracking data for a specific trial, including original and downsampled samples, Eyelink fixations, EyeKnows fixations, word boundaries, and labels. It provides options to control which elements to display and allows for customization of plot aesthetics. It may be possible to use this function to plot other eye tracking trials as well.
 #'
