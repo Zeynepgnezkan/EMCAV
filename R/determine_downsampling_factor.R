@@ -10,7 +10,6 @@
 #'
 #' @details The downsampling factor is calculated as the ratio of the original sampling rate to the target reduced sampling rate. The function also checks if the target sampling rate is higher than the original sampling rate and provides warnings if necessary. If the original sampling rate is not a multiple of the target sampling rate, the function adjusts the downsampling factor to ensure that the new sampling rate is a multiple of the target rate.
 #'
-#' @import base
 #'
 #' @examples
 #' # Original sampling rate and target reduced sampling rate
