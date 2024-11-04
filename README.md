@@ -1,9 +1,10 @@
 # EMCAV
 R Package
 
-Installation:
+## Installation:
 To install the package, please run the following code in R:
 
+```
 if('devtools' %in% rownames(installed.packages())==FALSE){
     install.packages('devtools')
     library(devtools)
@@ -11,8 +12,9 @@ if('devtools' %in% rownames(installed.packages())==FALSE){
     library(devtools)
   }
 install_github('Zeynepgnezkan/EMCAV')
+```
 If the above doesn't work, try this:
-
+```
 if('remotes' %in% rownames(installed.packages())==FALSE){
     install.packages('remotes')
     library(remotes)
@@ -20,3 +22,4 @@ if('remotes' %in% rownames(installed.packages())==FALSE){
     library(remotes)
 }
 install_url(url="https://github.com/Zeynepgnezkan/EMCAV/archive/master.zip", INSTALL_opt= "--no-multiarch")
+```
