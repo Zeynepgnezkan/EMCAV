@@ -8,8 +8,7 @@ Authors@R:
            comment = c(ORCID = "0000-0001-8989-8555")),
     person("Marina", "Serrano-Carot", , "Mserranc@nebrija.es", role = c("aut")) )          
 Description: This is a package to work with eye movement data. It can be use to read ASCII files from eye tracker experiments, clean the data, analyse and plot.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Imports: tidyverse, readr, purrr, readr, saccades, stringr
 Roxygen: list(markdown = TRUE)
