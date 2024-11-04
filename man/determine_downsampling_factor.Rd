@@ -13,7 +13,9 @@ determine_downsampling_factor(
 \arguments{
 \item{original_sampling_rate}{The original sampling rate of the data in Hz.}
 
-\item{reduce_sampling_rate_to}{The downsampling method used, \code{drop} or \code{average}. This only affects the message displayed}
+\item{reduce_sampling_rate_to}{The target reduced sampling rate in Hz.}
+
+\item{downsampling_method}{The downsampling method used, \code{drop} or \code{average}. This only affects the message displayed}
 }
 \value{
 The calculated downsampling factor.

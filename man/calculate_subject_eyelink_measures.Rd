@@ -27,9 +27,3 @@ A list containing:
 \description{
 This function calculates fixation time measures for a given subject based on their Eyelink data. It processes the trial database and fixations data to extract relevant metrics, including fixation time per word, and organizes the results for further analysis.
 }
-\examples{
-# Assuming subject_data is a pre-defined list containing the necessary data for a subject
-results <- calculate_subject_eyelink_measures(subject_data)
-print(results$fixation_time_measures_by_word)
-
-}

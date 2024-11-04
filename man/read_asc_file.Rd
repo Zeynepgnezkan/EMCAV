@@ -12,6 +12,8 @@ read_asc_file(data_file, rate = 1000, sentence_start_x = 125, language)
 \item{rate}{The sampling rate of the data.}
 
 \item{sentence_start_x}{The x-coordinate of the sentence start. Default is 125.}
+
+\item{language}{The language of the experiment. Default is "ENG".}
 }
 \value{
 A list containing various data frames and lists including trial information, messages, samples, words, fixations, saccades, and blinks.

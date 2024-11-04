@@ -17,11 +17,6 @@
 #' @import stringr
 #' @importFrom purrr map_dfr
 #'
-#' @examples
-#' # Assuming subject_data is a pre-defined list containing the necessary data for a subject
-#' results <- calculate_subject_eyelink_measures(subject_data)
-#' print(results$fixation_time_measures_by_word)
-#'
 #' @export
 calculate_subject_eyelink_measures <- function(subject) {
   results <- list()

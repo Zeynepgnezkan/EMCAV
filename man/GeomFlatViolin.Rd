@@ -10,11 +10,6 @@ An object of class \code{GeomFlatViolin} (inherits from \code{Geom}, \code{ggpro
 \usage{
 GeomFlatViolin
 }
-\arguments{
-\item{data}{A data frame containing the variables to be plotted.}
-
-\item{params}{A list of additional parameters for the geometry.}
-}
 \value{
 A ggproto object that defines the flat violin geometry.
 }

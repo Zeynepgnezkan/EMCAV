@@ -36,9 +36,13 @@ plot_trial(
 
 \item{trial_nr}{The trial number to visualize.}
 
+\item{use_eye}{The eye to use for visualization (either "L" or "R").}
+
 \item{show_original_samples}{Display the original eye tracking samples.}
 
 \item{show_downsampled_samples}{Display the downsampled eye tracking samples.}
+
+\item{downsampling_method}{The method to use for downsampling ("drop" or "average").}
 
 \item{downsampling_rate}{The rate at which to downsample the samples (in Hz).}
 
@@ -71,6 +75,10 @@ plot_trial(
 \item{max_distance_for_merge}{Maximum distance for merge criteria.}
 
 \item{letter_width}{The width of a single letter.}
+
+\item{words_font_size}{The font size for word labels.}
+
+\item{df_with_fixed_words}{A data frame containing fixed word information.}
 }
 \value{
 A ggplot object representing the eye tracking data visualization.
