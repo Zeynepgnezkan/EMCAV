@@ -1,4 +1,4 @@
-# EMCAV
+# EMCAV : Eye Movement data Cleaning, Analysing and Visualization
 R Package
 
 ## Installation:
