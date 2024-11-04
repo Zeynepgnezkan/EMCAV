@@ -37,3 +37,6 @@ Collate:
     'GeomFlatViolin.R'
     'read_asc_file.R'
 VignetteBuilder: knitr
+Suggests: 
+    knitr,
+    rmarkdown
